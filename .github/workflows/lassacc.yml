@@ -2,7 +2,7 @@ name: Supabase heartbeat
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   
+    - cron: "*/59 * * * *"   
   workflow_dispatch:         # Allow manual test from the Actions tab
 
 jobs:
